@@ -1,0 +1,8 @@
+.login, .register{
+    height: 80vh;
+    display: grid;
+    align-items: center;
+}
+.register {
+    height: auto;
+}
