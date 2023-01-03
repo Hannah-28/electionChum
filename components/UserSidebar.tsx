@@ -26,7 +26,7 @@ export default function UserSidebar(props: ComponentProps) {
       </Head>
 
       <div className="flex h-full">
-        <Sidebar customBreakPoint="1500px" transitionDuration={1000}>
+        <Sidebar customBreakPoint="1000px" transitionDuration={1000}>
           <Menu className="bg-black h-full">
             <div className="p-5">
               <Image

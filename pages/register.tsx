@@ -48,15 +48,6 @@ export default function Register() {
             <input
               type="text"
               className="w-full mt-4 py-2 pl-2 text-gray-700"
-              id="phone"
-              name="phone"
-              placeholder="Phone Number"
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              type="text"
-              className="w-full mt-4 py-2 pl-2 text-gray-700"
               id="soo"
               name="soo"
               placeholder="State of Origin"
@@ -76,10 +67,11 @@ export default function Register() {
             <br />
             <input
               type="file"
-              id="avatar"
-              name="avatar"
+              id="avatar1"
+              name="avatar1"
               accept="image/*,.pdf"
               // accept="image/png, image/jpeg, image/jpg"
+              className="w-full mt-4 py-2 pl-2 text-gray-700"
             />
           </div>
           <div className="mb-4">
@@ -87,10 +79,11 @@ export default function Register() {
             <br />
             <input
               type="file"
-              id="avatar"
-              name="avatar"
+              id="avatar2"
+              name="avatar2"
               accept="image/*,.pdf"
               // accept="image/png, image/jpeg, image/jpg"
+              className="w-full mt-4 py-2 pl-2 text-gray-700"
             />
           </div>
           <div className="mb-4">
