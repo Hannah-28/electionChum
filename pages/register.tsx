@@ -6,7 +6,7 @@ export default function Register() {
   return (
     <Layout title="Register">
       <div className="max-w-6xl mx-auto px-8 my-10 register">
-        <form className="shadow-md bg-gray-50 rounded-md py-7 my-10">
+        <form className="shadow-md bg-gray-50 rounded-md p-7 my-10">
           <h1 className="mb-4 text-2xl font-bold">Register</h1>
           <div className="mb-4">
             <input

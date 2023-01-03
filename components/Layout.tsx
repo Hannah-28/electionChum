@@ -29,10 +29,10 @@ export default function Layout(props: ComponentProps) {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Image
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                alt="Logo"
-                width={30}
-                height={30}
+                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                  alt="Logo"
+                  width={30}
+                  height={30}
                 />
               </div>
               <div className="hidden md:block">
@@ -51,12 +51,11 @@ export default function Layout(props: ComponentProps) {
                     Process
                   </Link>
 
-
                   <Link
-                    href="/candidates"
+                    href="/contact"
                     className="hover:text-indigo-500 text-white px-3 py-2 text-base font-medium"
                   >
-                    Candidates
+                    Contact
                   </Link>
 
                   <Link
@@ -134,7 +133,6 @@ export default function Layout(props: ComponentProps) {
                   Home
                 </Link>
 
-
                 <Link
                   href="/process"
                   className="text-white hover:bg-indigo-500 block px-3 py-2 rounded-md text-base font-medium"
@@ -143,10 +141,10 @@ export default function Layout(props: ComponentProps) {
                 </Link>
 
                 <Link
-                  href="/candidates"
+                  href="/contact"
                   className="text-white hover:bg-indigo-500 block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Candidates
+                  Contact
                 </Link>
 
                 <Link
@@ -161,15 +159,15 @@ export default function Layout(props: ComponentProps) {
         </Transition>
       </nav>
 
-      <main className='children'>
-        <div className="w-full mx-auto px-0">
-          {props.children}
-        </div>
+      <main className="children">
+        <div className="w-full mx-auto px-0">{props.children}</div>
       </main>
 
-      <footer className="flex justify-center items-center text-center my-3">
-          <p className='text-sm'>&copy; 2022 - 2023 ELECTION CHUM, ALL RIGHTS RESERVED</p>
-        </footer>
+      <footer className="flex justify-center items-center text-center my-10">
+        <p className="text-sm">
+          &copy; 2022 - 2023 ELECTION CHUM, ALL RIGHTS RESERVED
+        </p>
+      </footer>
     </div>
   );
 }
